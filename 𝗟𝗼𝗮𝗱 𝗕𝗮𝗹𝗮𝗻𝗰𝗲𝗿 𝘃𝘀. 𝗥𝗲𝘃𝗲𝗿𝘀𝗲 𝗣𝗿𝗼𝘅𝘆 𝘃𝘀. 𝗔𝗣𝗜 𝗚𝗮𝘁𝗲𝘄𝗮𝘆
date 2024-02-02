@@ -1,0 +1,17 @@
+𝘈𝘭𝘭 𝘵𝘩𝘳𝘦𝘦 𝘢𝘳𝘦 𝘶𝘴𝘦𝘥 𝘵𝘰 𝘰𝘱𝘵𝘪𝘮𝘪𝘻𝘦 𝘢𝘯𝘥 𝘮𝘢𝘯𝘢𝘨𝘦 𝘸𝘦𝘣 𝘵𝘳𝘢𝘧𝘧𝘪𝘤. 𝘏𝘰𝘸𝘦𝘷𝘦𝘳, 𝘵𝘩𝘦𝘺 𝘷𝘢𝘳𝘺 𝘪𝘯 𝘵𝘩𝘦𝘪𝘳 𝘧𝘶𝘯𝘤𝘵𝘪𝘰𝘯 𝘢𝘯𝘥 𝘶𝘴𝘦 𝘤𝘢𝘴𝘦𝘴.
+
+𝐋𝐨𝐚𝐝 𝐁𝐚𝐥𝐚𝐧𝐜𝐞𝐫: A load balancer is a device that distributes network or application traffic across a number of servers to ensure that no single server bears too much demand. This helps to increase concurrency, and reliability of applications by 'balancing' the load among various servers.
+
+𝐑𝐞𝐯𝐞𝐫𝐬𝐞 𝐏𝐫𝐨𝐱𝐲: A reverse proxy, also known as an "inbound" proxy, is a server that receives requests from the Internet and forwards them to a small set of servers, typically located on an internal network. It provides a point of control and can provide security, logging, and even load balancing. The client is unaware it is communicating with a set of servers instead of a single server.
+
+𝐀𝐏𝐈 𝐆𝐚𝐭𝐞𝐰𝐚𝐲: An API gateway is an API management tool that sits between a client and a collection of backend services, acting as a single point of entry for a defined group of microservices. In addition to accommodating direct requests, it can also invoke multiple back-end services and aggregate the results, perform format transformations, handle real-time processing, and implement security policies like OAuth.
+
+𝐃𝐢𝐟𝐟𝐞𝐫𝐞𝐧𝐜𝐞 𝐢𝐧 𝐔𝐬𝐞 𝐜𝐚𝐬𝐞𝐬:
+🔹 Load balancers are used when there is heavy traffic to servers and we need to ensure the load is evenly distributed.
+🔹 Reverse proxies are used to control and protect access to servers in internal networks, manage SSL encryption, or serve static content.
+🔹 API Gateways are used in microservices architecture where there are a number of service endpoints and there's a need for functionalities like request routing, composition, and protocol translation.
+
+𝐃𝐢𝐟𝐟𝐞𝐫𝐞𝐧𝐜𝐞 𝐢𝐧 𝐏𝐮𝐫𝐩𝐨𝐬𝐞:
+🔹 A load balancer distributes traffic for the purpose of optimal resource utilization, maximizing throughput, minimizing response time, and avoiding system overload.
+🔹 A reverse proxy protects servers from traffic by intercepting requests and managing them.
+🔹 An API Gateway, apart from handling requests, also manages and coordinates multiple microservices running behind it.
